@@ -6,7 +6,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.sea {
+  fill: darkblue;
+  cursor: pointer;
+  transition: fill 0.4s ease;
+}
+.sea:hover {
+  fill: blue;
+}
+.active {
+  fill: red;
+}
+.land {
+  fill: grey;
+  cursor: pointer;
+  transition: fill 0.4s ease;
+}
+.land:hover {
+  fill: darkolivegreen;
+}
+.box:hover {
+  fill: blue;
+}
+.active {
+  fill: red;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
